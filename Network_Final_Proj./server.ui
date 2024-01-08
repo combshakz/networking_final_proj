@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Server_UI_Mainwindow</class>
+ <widget class="QMainWindow" name="Server_UI_Mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="text_msg_display">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>511</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_msg_button">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>484</y>
+      <width>89</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEND MSG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="server_establish_button">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>120</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Establish Server</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="ip_display">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>80</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>60</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>My IP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_pics_button">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>290</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send Pics</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_videos_button">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>360</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send Videos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leave_button">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>470</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Leave Chat</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="msg_to_send">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>msg_to_send</zorder>
+   <zorder>text_msg_display</zorder>
+   <zorder>send_msg_button</zorder>
+   <zorder>server_establish_button</zorder>
+   <zorder>ip_display</zorder>
+   <zorder>label</zorder>
+   <zorder>send_pics_button</zorder>
+   <zorder>send_videos_button</zorder>
+   <zorder>leave_button</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
